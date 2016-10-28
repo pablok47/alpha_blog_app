@@ -1,4 +1,4 @@
-$navbar-default-bg: #03085e;
+$navbar-default-bg: #191970;
 
 
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
@@ -9,7 +9,7 @@ $navbar-default-bg: #03085e;
 
 #logo {
   float: left;
-  font-size: 2.0em;
+  font-size: 2.5em;
   color: #158f98;
   letter-spacing: -1px;
   font-weight: bold;
@@ -44,8 +44,17 @@ $navbar-default-bg: #03085e;
   background-color: black;
 }
 
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 footer {
-  margin-top: 45px;
+  margin-top: 200px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
@@ -68,3 +77,4 @@ footer ul li {
   float: left;
   margin-left: 15px;
 }
+
